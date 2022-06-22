@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/sanpham.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+
+</head>
+
+<body>
+        <header>
+            <a href=""><img src="images/logo.png" class="logo" alt=""></a>
+            <div class="toggleMenu" onclick="menuToggle()"></div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="footer.html">Contact</a></li>
+            </ul>
+        </header>
+
+    <figure id="sec2">
+
+        <div id="sanphamhienthi">
+            <ul>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle1" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/pep.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi001.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle2" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/diet-pep.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi002.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle3" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/pep-zero-sugar.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi003.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle4" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/pep-caffeine-free.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi009.png" alt="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="sanphaman">
+            <ul>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle5" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/diet-pep-caffeine.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi007.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle6" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/pep-real-sugar.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi006.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle7" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/pep-mango.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi004.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle8" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/pep-zero-sugar-mango.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi005.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle9" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/diet-pep-wild.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi008.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle10" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/pep-wild-cherry.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi0010.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="sp">
+                        <div class="card">
+                            <div id="circle11" class="circle">
+                                <div class="conten">
+                                    <img class="pep2" src="images/pep-zero-sugar-wild-cherry.jpg" alt="">
+                                </div>
+                            </div>
+                            <img src="images/pepsi0011.png" alt="">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="button1">
+            <button class="them" onclick="hienThiPepsi()" type="button">Xem them...</button>
+
+            <button class="bot" onclick="anBotPepsi() " type="button">An bot</button>
+        </div>
+
+    </figure>
+    <script src="js/js.js"></script>
+
+
+</body>
+
+</html>
